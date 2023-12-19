@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1ra Navidad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">
+        <h1>FELIZ NAVIDAD 2023</h1>
+        <h2>Por esta y todas las navidades juntos amor de mi vida ❤️</h2>
+    </div>
+    <div class="subtitle">
+        <h3>Cupones navideños</h3>
+        <h4>Validos hasta 31 de Diciembre del 2023 🎁</h4>
+    </div>
+    <div class="cupons">
+        <div class="cupon">1</div>
+        <div class="cupon">2</div>
+        <div class="cupon">3</div>
+        <div class="cupon">4</div>
+        <div class="cupon">5</div>
+        <div class="cupon">6</div>
+    </div>
+</body>
+
+<script>
+    const cupones = document.querySelectorAll('.cupon')
+
+    cupones.forEach((cup, i) => {
+        cup.addEventListener('click', () => {
+            if(i+1 == 1){
+                cup.innerHTML = 'Tu cupón es:<br>Masaje completo con aromaterapia, válido solo el 25 de Diciembre'
+                cup.style.fontSize = '2rem';
+            } else if(i+1 == 2){
+                cup.innerHTML = 'Tu cupón es:<br> Degustación de jamón ibérico y copa de vino'
+                cup.style.fontSize = '2rem';
+            } else if(i+1 == 3){
+                cup.innerHTML = 'Tu cupón es:<br> Ir a las lanchitas del Parque del Retiro (bueno este es válido cuando tu quieras mi amor ❤️)'
+                cup.style.fontSize = '2rem';
+            } else if(i+1 == 4){
+                cup.innerHTML = 'Tu cupón es:<br> Una cena todo incluido de cualquier restaurante de Glovo y ver películas juntos 🍿'
+                cup.style.fontSize = '2rem';
+            } else if(i+1 == 5){
+                cup.innerHTML = 'Tu cupón es:<br> Un cheesecake de la caracola si tu quieres con tortilla incluida'
+                cup.style.fontSize = '2rem';
+            } else if(i+1 == 6){
+                cup.innerHTML = 'Tu cupón es:<br> Una cena en el tapa tapa con tapas ricas y copa de vino 🍷'
+                cup.style.fontSize = '2rem';
+            }
+        })
+    })
+</script>
+</html>

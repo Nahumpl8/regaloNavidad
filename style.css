@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100%;
+    background-color: aliceblue;
+}
+.title{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.title h1{
+    font-size: 4rem;
+    color: crimson;
+}
+.title h2{
+    font-size: 2rem;
+    color: purple;
+}
+.subtitle{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.subtitle h3{
+    font-size: 3rem;
+    color: crimson;
+}
+.subtitle h4{
+    font-size: 1.5rem;
+    color: black;
+}
+.cupons{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+    padding: 5%;
+}
+.cupon{
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 6rem;
+    padding: 5%;
+}
+.cupon:nth-child(1){
+    background-image: url(./regalo1.png);
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+}
+.cupon:nth-child(2){
+    background-image: url(./regalo2.png);
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+}
+.cupon:nth-child(3){
+    background-image: url(./regalo3.png);
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+}
+.cupon:nth-child(4){
+    background-image: url(./regalo4.png);
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+}
+.cupon:nth-child(5){
+    background-image: url(./regalo5.png);
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+}
+.cupon:nth-child(6){
+    background-image: url(./regalo6.png);
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+}

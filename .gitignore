@@ -1,0 +1,104 @@
+# Archivos temporales creados por macOS
+.DS_Store
+
+# Carpeta de archivos temporales de macOS
+._*
+
+# Carpeta de respaldo de Time Machine
+.Backups
+
+# Carpeta de caché de Thumbnails creada por macOS
+/.thumbnails/
+
+# Archivos de configuración específicos de macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Iconos personalizados de carpetas de macOS
+Icon?
+ehthumbs.db
+Desktop.ini
+
+# Archivos temporales de Windows
+Thumbs.db
+
+# Carpeta de archivos temporales de Windows
+ehthumbs.db
+
+# Carpeta de archivos temporales de Linux
+*~
+
+# Carpeta de archivos temporales de Python
+*.pyc
+
+# Carpeta de archivos compilados de Java
+*.class
+
+# Carpeta de archivos generados por IntelliJ
+.idea/
+
+# Carpeta de archivos generados por Eclipse
+bin/
+
+# Carpeta de archivos generados por NetBeans
+nbproject/private/
+
+# Carpeta de archivos generados por Visual Studio Code
+.vscode/
+
+# Carpeta de archivos generados por Sublime Text
+.sublime*
+
+# Carpeta de archivos generados por TextMate
+/*.tmproj
+/*.tmproject
+/tmtags
+
+# Carpeta de archivos generados por Xcode
+*.xcworkspace/
+*.xcuserstate
+project.xcworkspace/
+
+# Archivos de compilación de Swift
+.build/
+
+# Carpeta de archivos generados por Node.js
+node_modules/
+
+# Carpeta de archivos generados por npm
+npm-debug.log
+
+# Carpeta de archivos generados por Yarn
+yarn-error.log
+
+# Carpeta de archivos generados por Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Carpeta de archivos generados por Hugo
+/public/
+/resources/
+
+# Carpeta de archivos generados por Gatsby
+.cache/
+/public/
+
+# Carpeta de archivos generados por Next.js
+.next/
+out/
+
+# Carpeta de archivos generados por Nuxt.js
+.nuxt/
+dist/
+
+# Carpeta de archivos generados por Vue.js
+/dist/
+
+# Carpeta de archivos generados por Angular
+/dist/
+/node_modules/
+
+#
